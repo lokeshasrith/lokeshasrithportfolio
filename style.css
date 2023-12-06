@@ -1,0 +1,401 @@
+/* CSS 1 - Aligning navigation links to the right */
+.top-right-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-right-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-right-nav ul li {
+    margin: 0 10px;
+}
+
+header .brand {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header .brand h1,
+header .brand p {
+    margin: 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links p {
+            display: inline-block;
+            margin-right: 10px;
+}
+
+.social-links p {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333; /* Set the color to match your navigation links */
+}
+
+.top-right-nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333; /* Set the color for navigation links */
+}
+
+/* CSS 2 - Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-weight: 300;
+}
+
+.section {
+    background-color: white;
+    padding: 60px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Additional styles for centering "Portfolio" */
+.header-content p {
+    text-align: center;
+}
+
+.third {
+    margin: 40px;
+}
+
+.third table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.third th,
+.third td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.third th {
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+.third td ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 24px;
+}
+
+.third li:hover {
+    border: 2px solid blueviolet;
+    font-size: 20px;
+}
+
+.hr1,
+.hr2 {
+    border-top: 2px solid white;
+    width: 2em;
+    margin: 1px;
+    position: static;
+    top: 0;
+    left: 0;
+    margin-top: 25px;
+}
+
+.hr2 {
+    margin-top: 80px;
+}
+
+.vertical {
+    border-left: 2px solid white;
+    height: 30em;
+    margin-left: 90px;
+    margin-top: 3px;
+}
+
+/* Additional styles for bullet point headers in navigation links */
+.top-right-nav ul li span {
+    margin-right: 5px;
+    color: blueviolet;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 10px;
+}
+
+/* Sample Futuristic Color Palette */
+:root {
+  --primary-color: #4ECDC4;
+  --secondary-color: #FF6B6B;
+  --accent-color: #556270;
+}
+
+/* Smoother Transitions */
+.top-right-nav ul li a, .contact-btn {
+  transition: color 0.3s ease;
+}
+
+/* Subtle Animations */
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+header .brand h1 {
+  animation: fadeInOut 3s infinite;
+}
+.top-right-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-right-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-right-nav ul li {
+    margin: 0 10px;
+}
+
+/* Add this style for the smooth transition */
+.top-right-nav ul li a {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.top-right-nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+header .brand {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header .brand h1,
+header .brand p {
+    margin: 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #FF6B6B;
+    color: white;
+    padding: 1em 0;
+    margin-bottom: 0px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-weight: 300;
+}
+
+.section {
+    background-color: #FFBE7B;
+    padding: 60px 0 20px; /* Updated padding to remove extra space at the bottom */
+    margin-bottom: 0;    /* Updated margin to remove space between sections */
+}
+
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.header-content p {
+    text-align: center;
+}
+
+.third {
+    margin: 40px;
+}
+
+.third table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.third th,
+.third td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.third th {
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+.third td ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 24px;
+}
+
+.third li:hover {
+    border: 2px solid blueviolet;
+    font-size: 20px;
+}
+
+.hr1,
+.hr2 {
+    border-top: 2px solid white;
+    width: 2em;
+    margin: 1px;
+    position: static;
+    top: 0;
+    left: 0;
+    margin-top: 25px;
+}
+
+.hr2 {
+    margin-top: 80px;
+}
+
+.vertical {
+    border-left: 2px solid white;
+    height: 30em;
+    margin-left: 90px;
+    margin-top: 3px;
+}
+
+.top-right-nav ul li span {
+    margin-right: 5px;
+    color: blueviolet;
+}
+
+footer {
+    background-color: #FF6B6B;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 10px;
+}
+
+:root {
+  --primary-color: #4ECDC4;
+  --secondary-color: #FF6B6B;
+  --accent-color: #556270;
+}
+
+.top-right-nav ul li a, .contact-btn {
+  transition: color 0.3s ease;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+header .brand h1 {
+  animation: fadeInOut 3s infinite;
+}
